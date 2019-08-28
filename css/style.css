@@ -23,7 +23,7 @@ pre{margin-top:0;margin-bottom:0;font-family:"SFMono-Regular",Consolas,"Liberati
 .markdown-body h6{margin-top:16px;line-height:1.25};
 .markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#1b1f23;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 tt,.markdown-body h1 code,.markdown-body h2 tt,.markdown-body h2 code,.markdown-body h3 tt,.markdown-body h3 code,.markdown-body h4 tt,.markdown-body h4 code,.markdown-body h5 tt,.markdown-body h5 code,.markdown-body h6 tt,.markdown-body h6 code{font-size:inherit}
 .markdown-body h1{padding-bottom:0.1em;font-size:2em;border-bottom:1px solid #eaecef}
-.markdown-body h2{margin-left: 0.6em}
+.markdown-body h2{margin-left: 18px}
 .markdown-body h3{font-size:1.25em}
 .markdown-body h4{font-size:1em}.markdown-body h5{font-size:0.875em}
 .markdown-body h6{font-size:0.85em;color:#6a737d}
