@@ -1,0 +1,46 @@
+/**
+ * @name Dimasssss
+ * @author Dimasssss#3633
+ * @version 1.0
+ * @description By Dimasssss
+*/
+
+@import url('https://Dimasssss.github.io/discord_themes/base.css');
+@import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
+@import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
+@import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
+@import url('https://Dimasssss.github.io/discord_themes/css/base.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/AQLv6oN.jpg');
+  --background-image-blur: 1px; /* размытие фона */
+  --background-image-size: cover;
+  --background-image-position: center center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 2px; 
+  --popout-modal-size: cover;
+  --popout-modal-position: center center;
+  --home-button-image: url('https://Dimasssss.github.io/discord_themes/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center center;
+  --serverlist-brightness: 0.7; /* затемнение фона серверов */
+  --left-brightness: 0.7; /* затемнение списка каналов */
+  --middle-brightness: 0.4; /* затемнение сообщений */
+  --right-brightness: 0.1; /* затемнение списка участников */
+  --popout-modal-brightness: 0.60;
+  --gradient-secondary: 120, 120, 255,0.7;
+  --gradient-primary: 20, 20, 255,0.7;
+  --scrollbar-colour: rgba(255,255,255,0.2);
+  --link-colour: #00b0f4;
+  --gradient-direction: 320deg;
+  --tint-colour: 0,0,255; /* цвет заливки фона */
+  --tint-brightness: 0; /* заливка фона */
+  --font: 'Whitney'; /* шрифт */
+  --window-padding: undefinedpx;
+  --window-roundness: undefinedpx;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+  --server-icon-size: 50px; /* размер иконок сервера */
+  --server-icon-spacing: 8px; /* отступ между иконками серверов */
+  --server-container-padding: 4px; /* отступ по бокам иконок серверов */
+}
