@@ -24,7 +24,7 @@
   /* --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
-  --backgroundColor: rgba(13,13,13,0); /* Background color */
+  --backgroundColor: rgba(13,13,13,0.8); /* Background color */
   --backgroundImage: url('https://i.imgur.com/zxXBhw1.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
