@@ -6,7 +6,7 @@
   --white-half: rgba(0,0,0,0.025);
   --white: rgba(0,0,0,0.05);
   --white-double: rgba(0,0,0,0.1);
-  --white-triple: rgba(0,0,0,0.15);
+  --white-triple: rgba(0,0,0,0.95);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
