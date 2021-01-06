@@ -23,7 +23,6 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.7";
 }
 
 .theme-dark {
@@ -31,7 +30,7 @@
   --header-secondary: #bbb;
   --text-normal: #fff;
   --text-default: #ddd;
-  --text-muted: #aaa;
+  --text-muted: #cccccc;
   --text-link: #00b0f4;
   --channels-default: #ddd;
   --interactive-normal: #bbb;
@@ -46,7 +45,7 @@
   --background-floating: transparent;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
-  --background-modifier-hover: rgba(255,255,255,0.05);
+  --background-modifier-hover: rgba(255,255,255,0.3);
   --background-modifier-active: rgba(255,255,255,0.07);
   --background-modifier-selected: rgba(255,255,255,0.1);
   --background-modifier-accent: rgba(255,255,255,0.1);
