@@ -23,6 +23,7 @@
   --home-button-image: url('https://Dimasssss.github.io/discord_themes/assets/discord.svg');
   --home-button-size: cover;
   --home-button-position: center center;
+  --home-button-background: rgba(0,0,255,0.7); /* цвет кнопки домой */
   --serverlist-brightness: 0.7; /* затемнение фона серверов */
   --left-brightness: 0.7; /* затемнение списка каналов */
   --middle-brightness: 0.4; /* затемнение сообщений */
@@ -37,7 +38,6 @@
   --header-primary: #fff; /* цвет названий каналов сверху */
   --interactive-normal: #bbb; /* цвет некоторых кнопок */
   --background-primary: transparent; /* цвет верхней панели */
-  --background-home-button: rgba(0,0,255,0.7); /* цвет кнопки домой */
   --text-normal: #fff; /* цвет текства в чате */
   --background-secondary: rgba(0,0,0,0.3); /* цвет строки поиска сверху */
   --channeltextarea-background: rgba(255,255,255,0.05); /* цвет поля ввода текста */
