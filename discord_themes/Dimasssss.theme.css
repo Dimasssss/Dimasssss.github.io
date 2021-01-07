@@ -5,7 +5,7 @@
  * @description By Dimasssss
 */
 
-@import url('https://Dimasssss.github.io/discord_themes/base.css');
+@import url('https://Dimasssss.github.io/discord_themes/1base.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
@@ -28,8 +28,8 @@
   --middle-brightness: 0.4; /* затемнение сообщений */
   --right-brightness: 0.1; /* затемнение списка участников */
   --popout-modal-brightness: 0.60;
-  --gradient-secondary: 120, 120, 255,0.7;
-  --gradient-primary: 20, 20, 255,0.7;
+  --gradient-secondary: 120, 120, 255,0.3;
+  --gradient-primary: 20, 20, 255,0.3;
   --scrollbar-colour: rgba(255,255,255,0.2);
   --link-colour: #00b0f4;
   --channels-default: #ddd; /* цвет названий каналов в списке */
