@@ -451,8 +451,8 @@
   background: transparent;
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-  background: var(--gradient);
-  background-color: rgba(50,50,255,0.50);
+  /* background: var(--gradient); */
+  background-color: var(--background-home-button);
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
   content: "";
