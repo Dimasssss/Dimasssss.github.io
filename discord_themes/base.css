@@ -452,7 +452,7 @@
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
   /* background: var(--gradient); */
-  background-color: var(--home-button-background);
+  background-color: var(--home-button-background, rgba(0,0,255,0.7));
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
   content: "";
