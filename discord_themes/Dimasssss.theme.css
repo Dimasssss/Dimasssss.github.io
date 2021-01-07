@@ -55,5 +55,5 @@
   --update-notice-1: none;
   --server-icon-size: 50px; /* размер иконок сервера */
   --server-icon-spacing: 8px; /* отступ между иконками серверов */
-  --server-container-padding: 4px; /* отступ по бокам иконок серверов */
+  --server-container-padding: 8px; /* отступ по бокам иконок серверов */
 }
