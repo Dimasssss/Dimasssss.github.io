@@ -577,8 +577,8 @@
   text-shadow: 0 2px 5px rgba(0, 0, 0, var(--text-shadow));
 }
 #app-mount .newMessagesBar-265mhP {
-  background: var(--gradient);
-  opacity: 1;
+  background: var(--new-messages-bar, rgba(0,0,255,0.25));
+  opacity: var(--new-messages-bar-opacity, 1);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 #app-mount .jumpToPresentBar-G1R9s6 {
