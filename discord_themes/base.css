@@ -171,7 +171,7 @@
   font-weight: 600;
 }
 #app-mount .tooltipBlack-PPG47z {
-  background: var(--gradient);
+  background: rgba(0,0,0,0.7);
 }
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
   display: none;
