@@ -5,7 +5,7 @@
  * @description By Dimasssss
 */
 
-@import url('https://Dimasssss.github.io/discord_themes/base.css');
+@import url('https://Dimasssss.github.io/discord_themes/1base.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
@@ -17,13 +17,15 @@
   --background-image-size: cover;
   --background-image-position: center center;
   --popout-modal-image: var(--background-image);
-  --popout-modal-blur: 2px; 
+  --popout-modal-blur: 3px; 
   --popout-modal-size: cover;
   --popout-modal-position: center center;
   --home-button-image: url('https://Dimasssss.github.io/discord_themes/assets/discord.svg');
   --home-button-size: cover;
   --home-button-position: center center;
   --home-button-background: rgba(0,0,255,0.7); /* цвет кнопки домой */
+  --color-left-button: rgba(0,180,255,0.5); /* цвет кнопкок под серверами */
+  --background-left-button: rgba(255,255,255,0.1); /* цвет фона под кнопками */
   --serverlist-brightness: 0.7; /* затемнение фона серверов */
   --left-brightness: 0.7; /* затемнение списка каналов */
   --middle-brightness: 0.4; /* затемнение сообщений */
@@ -38,6 +40,8 @@
   --header-primary: #fff; /* цвет названий каналов сверху */
   --interactive-normal: #bbb; /* цвет некоторых кнопок */
   --background-primary: transparent; /* цвет верхней панели */
+  --new-messages-bar: rgba(0,0,255,0.25); /* цвет полоски новых сообщений */
+  --new-messages-bar-opacity: 1.0; /* ее прозрачность */
   --text-normal: #fff; /* цвет текства в чате */
   --background-secondary: rgba(0,0,0,0.3); /* цвет строки поиска сверху */
   --channeltextarea-background: rgba(255,255,255,0.05); /* цвет поля ввода текста */
