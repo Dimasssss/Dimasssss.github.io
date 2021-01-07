@@ -481,8 +481,8 @@
   background: var(--white-double);
 }
 #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig {
-  background: var(--white);
-  color: rgb(var(--gradient-primary));
+  background: var(--background-left-button, rgba(255,255,255,0.1));
+  color: var(--color-left-button, rgba(0,180,255,0.5));
 }
 #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig.selected-ugP_am, #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig:hover {
   background: var(--white-double);
