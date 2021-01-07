@@ -5,7 +5,7 @@
  * @description By Dimasssss
 */
 
-@import url('https://Dimasssss.github.io/discord_themes/1base.css');
+@import url('https://Dimasssss.github.io/discord_themes/base.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
@@ -37,6 +37,7 @@
   --header-primary: #fff; /* цвет названий каналов сверху */
   --interactive-normal: #bbb; /* цвет некоторых кнопок */
   --background-primary: transparent; /* цвет верхней панели */
+  --background-home-button: rgba(0,0,255,0.7); /* цвет кнопки домой */
   --text-normal: #fff; /* цвет текства в чате */
   --background-secondary: rgba(0,0,0,0.3); /* цвет строки поиска сверху */
   --channeltextarea-background: rgba(255,255,255,0.05); /* цвет поля ввода текста */
