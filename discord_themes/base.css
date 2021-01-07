@@ -512,9 +512,9 @@
   background: transparent;
 }
 
-#app-mount .containerDefault--pIXnN .modeUnread-1qO3K1 .content-1x5b-n {
-  background: var(--white);
-}
+/* #app-mount .containerDefault--pIXnN .modeUnread-1qO3K1 .content-1x5b-n { */
+  /* background: var(--white); */
+/* } */
 #app-mount .containerDefault--pIXnN .wrapper-1ucjTd:hover .content-1x5b-n {
   background: var(--background-modifier-hover);
 }
