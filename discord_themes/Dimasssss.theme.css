@@ -32,6 +32,14 @@
   --gradient-primary: 20, 20, 255,0.7;
   --scrollbar-colour: rgba(255,255,255,0.2);
   --link-colour: #00b0f4;
+  --channels-default: #ddd; /* цвет названий каналов в списке */
+  --interactive-active: #fff; /* цвет названий каналов в списке */
+  --header-primary: #fff; /* цвет названий каналов сверху */
+  --interactive-normal: #bbb; /* цвет некоторых кнопок */
+  --background-primary: transparent; /* цвет верхней панели */
+  --text-normal: #fff; /* цвет текства в чате */
+  --background-secondary: rgba(0,0,0,0.3); /* цвет строки поиска сверху */
+  --channeltextarea-background: rgba(255,255,255,0.05); /* цвет поля ввода текста */
   --gradient-direction: 320deg;
   --tint-colour: 0,0,255; /* цвет заливки фона */
   --tint-brightness: 0; /* заливка фона */
