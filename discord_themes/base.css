@@ -35,7 +35,7 @@
   --background-secondary-alt: transparent;
   --background-tertiary: rgba(0,0,0,0.5);
   --background-accent: #4f545c;
-  --background-floating: transparent;
+  --background-floating: rgba(32,34,37,1);
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
   --background-modifier-hover: rgba(255,255,255,0.3);
