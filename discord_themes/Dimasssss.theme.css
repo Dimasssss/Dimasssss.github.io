@@ -5,14 +5,13 @@
  * @description By Dimasssss
 */
 
-@import url('https://Dimasssss.github.io/discord_themes/base.css');
+@import url('https://discordstyles.github.io/FrostedGlass/base.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
-@import url('https://Dimasssss.github.io/discord_themes/css/base.css');
 
 :root {
-  --background-image: url('https://i.imgur.com/AQLv6oN.jpg');
+  --background-image: url('https://i.imgur.com/ksSOCsd.jpg'); /* https://i.imgur.com/AQLv6oN.jpg */
   --background-image-blur: 1px; /* размытие фона */
   --background-image-size: cover;
   --background-image-position: center center;
@@ -23,19 +22,19 @@
   --home-button-image: url('https://Dimasssss.github.io/discord_themes/assets/discord.svg');
   --home-button-size: cover;
   --home-button-position: center center;
-  --home-button-background: rgba(0,0,255,0.7); /* цвет кнопки домой */
+  --home-button-background: rgba(0,0,255,0.5); /* цвет кнопки домой */
   --color-left-button: rgba(0,180,255,0.5); /* цвет кнопкок под серверами */
   --background-left-button: rgba(255,255,255,0.1); /* цвет фона под кнопками */
   --serverlist-brightness: 0.7; /* затемнение фона серверов */
   --left-brightness: 0.7; /* затемнение списка каналов */
-  --middle-brightness: 0.4; /* затемнение сообщений */
-  --right-brightness: 0.1; /* затемнение списка участников */
-  --popout-modal-brightness: 0.60;
+  --middle-brightness: 0.5; /* затемнение сообщений */
+  --right-brightness: 0.2; /* затемнение списка участников */
+  --popout-modal-brightness: 0.70; /* затемнение профиля */
   --gradient-secondary: 120, 120, 255,0.3;
   --gradient-primary: 20, 20, 255,0.3;
   --scrollbar-colour: rgba(255,255,255,0.2);
   --link-colour: #00b0f4;
-  --channels-default: #ddd; /* цвет названий каналов в списке */
+  --channels-default: #bababa; /* цвет названий каналов в списке */
   --interactive-active: #fff; /* цвет названий каналов в списке */
   --header-primary: #fff; /* цвет названий каналов сверху */
   --interactive-normal: #bbb; /* цвет некоторых кнопок */
@@ -46,14 +45,19 @@
   --background-secondary: rgba(0,0,0,0.3); /* цвет строки поиска сверху */
   --channeltextarea-background: rgba(255,255,255,0.05); /* цвет поля ввода текста */
   --gradient-direction: 320deg;
-  --tint-colour: 0,0,255; /* цвет заливки фона */
+  --tint-colour: 0,0,255; /* цвет заливки фона, поверх картинки */
   --tint-brightness: 0; /* заливка фона */
   --font: 'Whitney'; /* шрифт */
+  /* --font: "HYWenHei 85W"; */
   --window-padding: undefinedpx;
   --window-roundness: undefinedpx;
   --show-gift-gif-buttons: none;
   --update-notice-1: none;
   --server-icon-size: 50px; /* размер иконок сервера */
   --server-icon-spacing: 8px; /* отступ между иконками серверов */
-  --server-container-padding: 8px; /* отступ по бокам иконок серверов */
+  --server-container-padding: 11px; /* отступ по бокам иконок серверов */
+}
+#app-mount .guilds-1SWlCJ [class*=circleIconButton] {
+    color: #3ba55c;
+    background-color: var(--background-primary);
 }
