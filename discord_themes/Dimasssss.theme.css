@@ -1,18 +1,20 @@
 /**
  * @name Dimasssss
  * @author Dimasssss#3633
- * @version 1.1
+ * @version 1.3.2
  * @description By Dimasssss
 */
 
-@import url('https://discordstyles.github.io/FrostedGlass/base.css');
+@import url("https://discordstyles.github.io/FrostedGlass/base.css");
 @import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
 @import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
 
 :root {
+  --version: "Dimasssss 1.3.2";
+  --icon-server: 42px; /* размер иконок сервера */
   --background-image: url('https://i.imgur.com/ksSOCsd.jpg'); /* https://i.imgur.com/AQLv6oN.jpg */
-  --background-image-blur: 1px; /* размытие фона */
+  --background-image-blur: 0px; /* размытие фона */
   --background-image-size: cover;
   --background-image-position: center center;
   --popout-modal-image: var(--background-image);
@@ -25,9 +27,9 @@
   --home-button-background: rgba(0,0,255,0.5); /* цвет кнопки домой */
   --color-left-button: rgba(0,180,255,0.5); /* цвет кнопкок под серверами */
   --background-left-button: rgba(255,255,255,0.1); /* цвет фона под кнопками */
-  --serverlist-brightness: 0.7; /* затемнение фона серверов */
-  --left-brightness: 0.7; /* затемнение списка каналов */
-  --middle-brightness: 0.5; /* затемнение сообщений */
+  --serverlist-brightness: 0.75; /* затемнение фона серверов */
+  --left-brightness: 0.6; /* затемнение списка каналов */
+  --middle-brightness: 0.4; /* затемнение сообщений */
   --right-brightness: 0.2; /* затемнение списка участников */
   --popout-modal-brightness: 0.70; /* затемнение профиля */
   --gradient-secondary: 120, 120, 255,0.3;
@@ -38,26 +40,93 @@
   --interactive-active: #fff; /* цвет названий каналов в списке */
   --header-primary: #fff; /* цвет названий каналов сверху */
   --interactive-normal: #bbb; /* цвет некоторых кнопок */
-  --background-primary: transparent; /* цвет верхней панели */
+  --background-primary: transparent; /* цвет строки сообщений */
   --new-messages-bar: rgba(0,0,255,0.25); /* цвет полоски новых сообщений */
   --new-messages-bar-opacity: 1.0; /* ее прозрачность */
-  --text-normal: #fff; /* цвет текства в чате */
+  --text-normal: #fff; /* цвет текста в чате */
   --background-secondary: rgba(0,0,0,0.3); /* цвет строки поиска сверху */
   --channeltextarea-background: rgba(255,255,255,0.05); /* цвет поля ввода текста */
   --gradient-direction: 320deg;
   --tint-colour: 0,0,255; /* цвет заливки фона, поверх картинки */
-  --tint-brightness: 0; /* заливка фона */
+  --tint-brightness: 0; /* заливка фона в % */
   --font: 'Whitney'; /* шрифт */
   /* --font: "HYWenHei 85W"; */
   --window-padding: undefinedpx;
   --window-roundness: undefinedpx;
   --show-gift-gif-buttons: none;
   --update-notice-1: none;
-  --server-icon-size: 50px; /* размер иконок сервера */
-  --server-icon-spacing: 8px; /* отступ между иконками серверов */
-  --server-container-padding: 11px; /* отступ по бокам иконок серверов */
+  --background-tertiary: #34373c;
 }
 #app-mount .guilds-1SWlCJ [class*=circleIconButton] {
     color: #3ba55c;
     background-color: var(--background-primary);
+}
+
+#app-mount .tooltipPrimary-1d1ph4 {
+  background: rgba(30,30,30,0.9);
+}
+#app-mount .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
+  display: none;
+}
+
+.tree-2wKJdG {
+    outline: none;
+}
+
+.iconWrapper-2OrFZ1 {
+    margin: 0 2px;
+}
+
+.container-1r6BKw {
+    padding: 0 4px;
+	height: 34px;
+}
+
+.platform-win .winButton-iRh8-Z {
+    width: var(--TB-width, 34px);
+	height: var(--TB-height, 34px);
+}
+
+.platform-win .container-1r6BKw {
+    padding-right: var(--TB-header-padding, 100px);
+}
+
+#app-mount .base-3dtUhz:before {
+    top: 34px;
+}
+
+.header-2V-4Sw {
+    height: 34px;
+	padding: 0 8px;
+}
+
+.search-36MZv- {
+    margin: 0;
+}
+
+.avatar-1BDn8e {
+    left: 8px;
+}
+
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-left: 60px;
+}
+
+#app-mount .message-2qnXI6 {
+  padding-right: 20px!important;
+}
+
+.divider-3_HH5L {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.member-3-YXUe {
+    position: relative;
+    max-width: 232px;
+    margin-left: 0px;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background: rgba(0, 0, 0, var(--middle-brightness));
 }
