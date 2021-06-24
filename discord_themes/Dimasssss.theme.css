@@ -1,18 +1,15 @@
 /**
  * @name Dimasssss
  * @author Dimasssss#3633
- * @version 1.3.2
+ * @version 1.3.3
  * @description By Dimasssss
 */
 
 @import url("https://discordstyles.github.io/FrostedGlass/base.css");
-@import url('https://Dimasssss.github.io/discord_themes/css/userPopouts.css');
-@import url('https://Dimasssss.github.io/discord_themes/css/modals.css');
-@import url('https://Dimasssss.github.io/discord_themes/css/windows-titlebar.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
 :root {
-  --version: "Dimasssss 1.3.2";
-  --icon-server: 42px; /* размер иконок сервера */
+  --version: "Dimasssss 1.3.3";
   --background-image: url('https://i.imgur.com/ksSOCsd.jpg'); /* https://i.imgur.com/AQLv6oN.jpg */
   --background-image-blur: 0px; /* размытие фона */
   --background-image-size: cover;
